@@ -25,4 +25,5 @@ flutter:
   uses-material-design: true
   assets:
     - assets/images/background_pattern.png
+    - assets/images/background_init.png
     - assets/images/logo_pig.png

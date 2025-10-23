@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:bank_app/screens/home_screen.dart';
+import 'package:bank_app/screens/welcome_screen.dart';
 import 'package:intl/intl.dart';
 import 'package:intl/date_symbol_data_local.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
@@ -36,7 +37,7 @@ class BankApp extends StatelessWidget {
         colorSchemeSeed: Colors.green,
       ),
       debugShowCheckedModeBanner: false,
-      home: const HomeScreen(),
+      home: const WelcomeScreen(),
     );
   }
 }
