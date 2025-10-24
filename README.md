@@ -36,6 +36,14 @@ flutter run
 
 
 ## Screenshots (prints)
+<p align="center">
+  <img width="200" height="500" src="https://github.com/user-attachments/assets/b776e7b4-58f0-4b58-8e34-732ab3315823" alt="Welcome" />
+  <img width="200" height="500" src="https://github.com/user-attachments/assets/8ad86920-c8be-469b-92d6-1fe074379fe7" alt="Home" />
+  <img width="200" height="500" src="https://github.com/user-attachments/assets/16fbc5e2-fefb-48bc-a730-cb26d57a1408" alt="Transferencia" />
+  <img width="200" height="500" src="https://github.com/user-attachments/assets/37f557b8-14e0-4201-861a-7db5911f20ba" alt="Transferencias" />
+</p>
+
+
 
 
 ### Como contribuir
