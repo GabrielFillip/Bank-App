@@ -1,27 +1,44 @@
 # Bank App
 
-Aplicativo exemplo em Flutter para gerenciar transferências bancárias locais usando SQLite.
+Um aplicativo exemplo em Flutter que demonstra um fluxo simples de gerenciamento de transferências locais com persistência via SQLite.
 
-Principais características:
-- Navegação entre telas (Home, Nova Transferência, Lista)
-- Persistência local com `sqflite`
-- Formatação de moeda com `intl`
-- Validação de formulários, loading states e feedback via `SnackBar`
+Este README traz uma visão rápida do projeto, instruções mínimas para rodar e a estrutura principal.
 
-Como rodar (Windows PowerShell):
+## Funcionalidades principais
 
-1. Instale dependências:
+- Tela de boas-vindas (Welcome) com imagem de fundo e botão "Entrar".
+- Tela principal (Home) com acesso para criar nova transferência e listar transferências.
+- Armazenamento local usando `sqflite`.
+- Formatação de datas e valores com `intl`.
+- UI baseada em Material 3, com componentes e estilos customizados.
+
+## Como rodar (resumo rápido)
+
+1. Na raiz do projeto, instale dependências:
 
 ```powershell
 flutter pub get
 ```
 
-2. Rodar no emulador ou dispositivo conectado:
+2. Rode o app no emulador ou dispositivo conectado:
 
 ```powershell
 flutter run
 ```
 
-Observações:
-- O projeto utiliza Material 3 e foi pensado para dispositivos Android e iOS.
-- Para testes rápidos: abra o app, crie uma transferência e verifique a lista.
+## Estrutura resumida do projeto
+
+- `lib/main.dart` — ponto de entrada do app; atualmente inicializa a `WelcomeScreen`.
+- `lib/screens/` — telas da aplicação (por ex. `welcome_screen.dart`, `home_screen.dart`, `nova_transferencia.dart`, `lista_transferencias.dart`).
+- `lib/models/` — modelos de dados (ex.: `transferencia.dart`).
+- `lib/database/` — helper(es) para SQLite (`database_helper.dart`).
+- `assets/images/` — imagens e backgrounds usados pela UI.
+
+
+## Screenshots (prints)
+
+
+### Como contribuir
+
+1. Crie uma branch com nome claro (ex.: `feature/welcome-ui`).
+2. Faça commit das mudanças e abra um pull request.

@@ -53,7 +53,7 @@ class WelcomeScreen extends StatelessWidget {
                     // Expande o espaço até o texto (para posicioná-lo mais abaixo)
                     const Spacer(),
 
-                    // Texto grande à esquerda
+                    // Texto grande a esquerda
                     Align(
                       alignment: Alignment.centerLeft,
                       child: ConstrainedBox(
@@ -72,7 +72,7 @@ class WelcomeScreen extends StatelessWidget {
 
                     const SizedBox(height: 24),
 
-                    // Botão grande alinhado à esquerda
+                    // Botão grande alinhado a esquerda
                     Align(
                       alignment: Alignment.centerLeft,
                       child: ElevatedButton(
